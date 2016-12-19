@@ -1,0 +1,634 @@
+<!doctype html> 
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, 
+user-scalable=no, target-densitydpi=medium-dpi" />
+<title>비즈엔터</title>
+<link rel="stylesheet" type="text/css" href="../css/bizenter.css">
+</head>
+<body>
+    <div class="e_skip">
+        <a href="#content">본문 바로가기</a>
+    </div>
+    <!--헤더-->
+    <header>
+        <div id="header">
+            <!--로고및버튼-->
+            <div class="header_cont">
+                <h1 class="h_logo">
+                    <a href="index.html" class="ico logo">비즈엔터</a>
+                </h1>
+                <div class="h_btn_all">
+                    <a href="all_service.html" class="ico btn_all">전체보기</a>
+                </div>
+                <div class="h_search">
+                    <a href="search.html" class="ico search">검색</a>
+                </div>
+            </div>
+            <!--//로고및버튼-->
+            <!--검색창-->
+            <div id="section_search" class="header_s_w" style="display: none">
+                <h2 class="blind">검색</h2>
+                <div>
+                    <div class="search_wrap">
+                        <form name="formSearch" method="get">
+						  <fieldset class="search_wrap_c">
+							 <legend>검색</legend>
+							 <div class="gbox">
+								<input class="search_box" type="text" id="keyword_s" name="keyword" value="검색어를 입력하세요">
+                                <button type="submit" class="ico s_search">검색</button>
+							 </div>
+                              <button id="btn_search_close" type="button" class="ico close">닫기</button>
+						  </fieldset>
+					   </form>
+				    </div>
+                </div>
+            </div>
+            <!--//검색창-->
+            <!--서비스전체보기-->
+            <div id="section_menuall" class="entire_s_w header_s_w" style="display: block">
+                <h2 class="blind">서비스전체보기</h2>
+                <div class="menuall_area">
+                    <div class="menuall_w">
+                        <div class="menuall_tit">서비스 전체보기</div>
+                        <ul class="menuall_lst">
+                            <li>
+                                <ul>
+                                    <li class="on list_type_01">
+                                        <a href="#">홈</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on list_type_01">
+                                        <a href="#">비즈</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on list_type_01">
+                                        <a href="#">뉴스</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">전체</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">TV</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">음악</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">영화</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">어라운드</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">칼럼</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on list_type_01">
+                                        <a href="#">스타</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on list_type_01">
+                                        <a href="#">포토</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on list_type_01">
+                                        <a href="#">영상</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on list_type_02">
+                                        <a href="#">많이 본 기사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on list_type_02">
+                                        <a href="#">실시간 최신기사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on list_type_02">
+                                        <a href="#">페이스북</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <button id="btn_search_close" type="button" class="ico close">닫기</button>
+                </div>
+            </div>
+            <!--//서비스전체보기-->
+            <!--메뉴-->
+            <div id="nav" class="h_gnb">
+                <h2 class="blind">비즈엔터 전체메뉴</h2>
+                <ul>
+                    <li class="on">
+                        <a href="index.html">홈</a>
+                    </li>
+                    <li>
+                        <a href="list.html">비즈</a>
+                    </li>
+                    <li>
+                        <a href="list.html">뉴스</a>
+                    </li>
+                    <li>
+                        <a href="list.html">스타</a>
+                    </li>
+                    <li>
+                        <a href="photo_list.html">포토</a>
+                    </li>
+                    <li>
+                        <a href="video_list.html">영상</a>
+                    </li>
+                </ul>
+            </div>
+            <!--//메뉴-->
+        </div>
+    </header>
+    <!--//헤더-->
+    <!--컨텐츠-->
+    <div id="content">
+        <!--탑기사-->
+        <div class="top_article box">
+            <div class="top_article_w">
+                <h2 class="blind">헤드라인</h2>
+                <a href="#">
+                    <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160628041736_895001_500_373.PNG" width="100%" height="" alt="">
+                    <span class="headline_tit">BZ시선</span>
+                </a>
+            </div>
+            <div class="top_related_lead">
+                <a href="#" class="link_text2">
+                    '쇼미더머니5' 플로우식, 작업실 풍경 공개 '기대감 상승''쇼미더머니5' 플로우식, 작업실 풍경 공개 '기대감 상승'
+                </a>
+            </div>
+            <!--슬라이드버튼-->
+            <div class="pageNav">
+				<span class="pagenum">
+                    <span class="on">1</span>
+                    <span class="num">2</span>
+                    <span class="num">3</span>
+                    <span class="num">4</span>
+                    <span class="num">5</span>
+				</span>
+            </div>
+            <!--//슬라이드버튼-->
+        </div>
+        <!--//탑기사-->
+        <!--AD320_100-->
+        <div class="box">
+            <a href="#" style="padding: 10px 0 10px 0;text-align:center">
+                <img src="https://tpc.googlesyndication.com/simgad/13628139577675153308" widht="320" height="100" alt="">
+            </a>
+        </div>
+        <!--AD320_100-->
+        <!--bz시선-->
+        <div class="allsub_lst">
+            <ul class="m_news_lst box">
+                <li>
+                    <a href="#" class="fst_w">
+                        <div class="thumb">
+                            <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160629091253_895367_500_707.jpg" widht="" height="" alt="">
+                        </div>
+                        <div class="tit_area fst">
+                            <span class="txt_area link_text2">
+                                <font style="padding-right: 5px;color: #ff1f64">BZ시선</font>
+                               권상우, 日 3개 도시 투어 팬미팅 전석 매진
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="fst_w">
+                        <div class="thumb">
+                            <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160629090229_895358_600_782.jpg" widht="" height="" alt="">
+                        </div>
+                        <div class="tit_area fst">
+                            <span class="txt_area link_text2">
+                                <font style="padding-right: 5px;color: #ff1f64">BZ시선</font>
+                               ‘터널’ 배두나, 하정우 아내로 2년 만에 국내 스크린 복귀
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="fst_w">
+                        <div class="thumb">
+                            <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160629085302_895345_600_480.jpg" widht="" height="" alt="">
+                        </div>
+                        <div class="tit_area fst">
+                            <span class="txt_area link_text2">
+                                <font style="padding-right: 5px;color: #ff1f64">BZ시선</font>
+                                ‘부산행’ 156개국 선판매…30억 이상 벌었다
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="fst_w">
+                        <div class="thumb">
+                            <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160629084423_895334_550_414.jpg" widht="" height="" alt="">
+                        </div>
+                        <div class="tit_area fst">
+                            <span class="txt_area link_text2">
+                                <font style="padding-right: 5px;color: #ff1f64">BZ시선</font>
+                                위너, 빅뱅 영화 개봉에 열혈 응원 '역시 YG패밀리'
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--//bz시선-->
+        <!--2단기사_01-->
+        <div class="sec_article box">
+            <ul class="sec_article_c">
+                <li>
+                    <a href="#">
+                        <span class="sec_article_img">
+                            <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160628085600_894577_600_452.jpg" width="100%" alt="">
+                            <span class="headline_tit">스타</span>
+                        </span>
+                        <span class="sec_article_tit ">
+                            <span class="link_text2">
+                                ‘몬스터’ 수현, 강지환과의 일상 “햇살 좋은 날”
+                            </span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="sec_article_img">
+                            <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160628082013_894534_600_900.jpg" width="100%" alt="">
+                            <span class="headline_tit">스타</span>
+                        </span>
+                        <span class="sec_article_tit ">
+                            <span class="link_text2">
+                                故 김성민, 오늘(28일) 발인…아내, 아들 눈물 배웅 속 영면
+                            </span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="top_related_articles">
+                <ul class="r_a_line">
+                    <li>
+                        <a href="#" class="line_text1">'슈가맨' KCM 남다른 패션 이유 "협찬으로 맞는 것만 입다보니"</a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">故 김성민, 오늘(28일) 발인…아내, 아들 눈물 배웅 속 영면</a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">‘또 오해영’ 김지석, 이진욱과 결혼식 참석 “아는 사람”</a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">‘몬스터’ 수현, 강지환과의 일상 “햇살 좋은 날”</a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">'PD수첩' 박유천 고소녀 "인간이하 취급…용서할 수 없어"</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--//2단기사_01-->
+        <!--포토갤러리-->
+        <div class="photo_gallery_w box">
+            <div class="card_news_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>포토갤러리</h3>
+                    </a>
+                </div>
+                <div class="section_txt_c">
+                    <div class="section_txt_inner">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>
+                                        <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160627085950_893669_600_400.jpg" width="100%" height="90" alt="">
+                                    </span>
+                                    <span class="sec_article_tit ">
+                                        <span class="link_text2">
+                                            ‘백희’ 진지희 “성인 연기, 자연스럽게 다가가고파”
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>
+                                        <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160629094831_895400_600_600.jpg" width="100%" height="90" alt="">
+                                    </span>
+                                    <span class="sec_article_tit ">
+                                        <span class="link_text2">
+                                            라이프 앤 타임, 리메이크 프로젝트 스타트…첫 주자 산울림
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>
+                                        <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160628085829_895181_600_995.jpg" width="100%" height="90" alt="">
+                                    </span>
+                                    <span class="sec_article_tit ">
+                                        <span class="link_text2">
+                                            자이언티, 역시 ‘음원 깡패’ 8대 차트 ‘퍼펙트 올킬’
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//포토갤러리-->
+        <!--엔터지배구조-->
+        <div class="biz_ent_control box">
+            <div class="biz_ent_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>엔터지배구조</h3>
+                    </a>
+                </div>
+                <div class="section_txt_c">
+                   <div class="sec_article2_w">
+                        <a href="#" class="thumb">
+                            <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160627084535_893648_575_509.jpg" width="100%" height="" alt="">  
+                        </a>
+                        <a href="#">
+                            <div class="sec_article2_txt">
+                                <div class="article2_tit link_text2">[엔터지배구조] 판타지오 매출킹, ‘서강준ㆍ하정우’ 체제 확립</div>
+                            </div>
+                        </a>    
+                    </div>
+                </div>
+                <div class="top_related_articles">
+                    <ul class="r_a_line">
+                        <li>
+                            <a href="#" class="line_text1">
+                                청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="line_text1">
+                                김재덕부터 데니안까지…'겟잇뷰티' 1세대 아이돌 출동
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <!--//엔터지배구조-->
+        <!--최신영상-->
+        <div class="new_video box">
+            <div class="new_video_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>최신영상</h3>
+                    </a>
+                </div>
+                <div class="section_txt_c">
+                    <div class="section_txt_inner">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>
+                                        <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160629100946_895428_600_912.jpg" width="100%" height="84" alt="">
+                                        <span class="ico play_small"></span>
+                                    </span>
+                                    <span class="sec_article_tit ">
+                                        <span class="link_text2">
+                                            ‘빅뱅 메이드’ 빅뱅 덕후들, 계탔네
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>
+                                        <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160628095509_894642_600_860.jpg" width="100%" height="84" alt="">
+                                        <span class="ico play_small"></span>
+                                    </span>
+                                    <span class="sec_article_tit ">
+                                        <span class="link_text2">
+                                            9년 전 ‘제이슨 본’ 다시 보자…‘본 얼티메이텀’ 7일간 재개봉
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//최신영상-->
+        <!--한줄기사10개-->
+        <div class="box">
+            <div class="top_related_articles">
+                <ul class="r_a_line">
+                    <li>
+                        <a href="#" class="line_text1">
+                            청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            김재덕부터 데니안까지…'겟잇뷰티' 1세대 아이돌 출동
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            김재덕부터 데니안까지…'겟잇뷰티' 1세대 아이돌 출동
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            김재덕부터 데니안까지…'겟잇뷰티' 1세대 아이돌 출동
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            김재덕부터 데니안까지…'겟잇뷰티' 1세대 아이돌 출동
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            김재덕부터 데니안까지…'겟잇뷰티' 1세대 아이돌 출동
+                        </a>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+        <!--더보기-->
+        <div class="article_add_w" style="margin-top: 10px">
+            <a href="#">
+                <span class="ico article_add">더보기</span>
+            </a>
+        </div>
+        <!--//더보기-->
+        <!--//한줄기사10개-->
+        <!--많이본기사-->
+        <div class="enjoy_article box">
+            <div class="ent_spo_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>많이 본 기사</h3>
+                    </a>
+                </div>
+                <div class="section_txt_c">
+                    <ul>
+                        <li>
+                            <div class="sec_article2_w">
+                                <a href="#" class="thumb">
+                                    <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160629123717_895239_500_500.jpg" width="100%" height="" alt="">
+                                    <span class="enjoy_num">1</span>
+                                </a>
+                                <a href="#">
+                                    <div class="sec_article2_txt">
+                                        <div class="article2_tit link_text2">'슈가맨' KCM 남다른 패션 이유 "협찬으로 맞는 것만 입다보니"</div>
+                                    </div>
+                                </a>    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="sec_article2_w">
+                                <a href="#" class="thumb">
+                                    <img src="http://img.etoday.co.kr/pto_db/2016/06/400/20160627084535_893648_575_509.jpg" width="100%" height="" alt="">
+                                    <span class="enjoy_num">2</span>
+                                </a>
+                                <a href="#">
+                                    <div class="sec_article2_txt">
+                                        <div class="article2_tit link_text2">[엔터지배구조] 판타지오 매출킹, ‘서강준ㆍ하정우’ 체제 확립</div>
+                                    </div>
+                                </a>    
+                            </div>
+                        </li>
+                        <li class="one_line">
+                            <a href="#" class="line_text1">
+                                <span class="enjoy_num_common">3</span>
+                                청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                            </a>
+                        </li>
+                        <li class="one_line">
+                            <a href="#" class="line_text1">
+                                <span class="enjoy_num_common">4</span>
+                                청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                            </a>
+                        </li>
+                        <li class="one_line">
+                            <a href="#" class="line_text1">
+                                <span class="enjoy_num_common">5</span>
+                                청순 벗은 박은빈, 머리까지 싹둑..'청춘시대' 모태솔로 변신
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <!--//많이본기사-->
+        <!--맨위로-->
+        <div class="first_top_w">
+            <a href="#" class="ico first_top_ico">
+                맨위로
+            </a>
+        </div>
+        <!--//맨위로-->
+    </div>
+    <!--//컨텐츠-->
+    <!--사이트맵-->
+    <div class="site_map_w box">
+        <ul>
+            <li>
+                <a href="#">홈</a>
+            </li>
+            <li>
+                <a href="#">뉴스</a>
+            </li>
+            <li>
+                <a href="#">비즈</a>
+            </li>
+            <li>
+                <a href="#">포토</a>
+            </li>
+            <li>
+                <a href="#">영상</a>
+            </li>
+            <li>
+                <a href="#">많이본</a>
+            </li>
+            <li>
+                <a href="#">실시간</a>
+            </li>
+            <li>
+                <a href="#">페이스북</a>
+            </li>
+        </ul>
+    </div>
+    <!--//사이트맵-->
+    <!--푸터-->
+    <footer id="footer">
+        <div class="footer_c box" style="margin-top: 0">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="ico pc"></span>
+                        <span class="pc_tit">PC버전</span>
+                    </a>    
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="ico login"></span>
+                        <span class="login_tit">로그인</span>
+                    </a>
+                </li>
+            </ul>
+            <address>Copyright (c) 비즈엔터. All rights reserved</address>
+        </div>
+    </footer>
+    <!--//푸터-->
+</body>
+</html>

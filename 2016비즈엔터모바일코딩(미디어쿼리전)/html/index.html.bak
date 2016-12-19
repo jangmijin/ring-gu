@@ -1,0 +1,273 @@
+<!doctype html> 
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, 
+user-scalable=no, target-densitydpi=medium-dpi" />
+<title>뉴스팡팡</title>
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+</head>
+<body>
+<!--wrap-->
+<div id="header_wrap">
+	<!--header-->
+	<header id="header">
+		<!--로고-->
+		<div class="logo">
+			<ul>
+				<li class="sub_logo"><a href="#" class="etoday_logo">이투데이</a></li><!--검색-->
+				<li class="title_logo"><a href="#" class="pang_logo">뉴스팡팡</a></li><!--메뉴-->
+			</ul>
+		</div>
+		<!--//로고-->
+		<!--전제서비스보기-->
+		<div class="entire_list">
+			<a href="list.html" class="list">전체메뉴</a>
+		</div>
+		<!--//전체서비스보기-->
+	</header>
+	<!--//header-->
+</div>
+<!--//header_wrap-->
+<!--section-->
+<section>
+	<article>
+		<div id="content">
+			<!--기사-->
+			<div class="news_content">
+				<div class="box">
+					<div class="title_area">
+						<a href="#">
+							<p class="text_title">폭탄·저격수에…이라크軍, 티크리트 진격 늦어져</p>
+						</a>
+					</div>
+					<div class="img_area">
+						<a href="#">
+							<p class="f_img"><img src="http://imgnews.naver.net/image/421/2015/03/13/1269213_article_99_20150313112403.jpg?type=w540" width="100%" alt=""></p>
+						</a>
+					</div>
+					<div class="text_area">
+						<a href="#">
+							<p class="text_content">지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지... 지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지...</p>
+						</a>
+					</div>
+					<div class="link_btn">
+						<a href="#"><div class="share_btn"><span class="share_ico">공유</span></div></a>
+						<a href="#" class="article_text"><div class="article_btn">기사원문보기<span class="see_ico"></span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--//기사-->
+			<!--기사-->
+			<div class="news_content">
+				<div class="box">
+					<div class="title_area">
+						<a href="#">
+							<p class="text_title">절대 잃어버리지 않는 스마트 우산 등장 절대 잃어버리지 않는 스마트절대 잃어버리지 않는 스마트 우산 등장 절대 잃어버리지 않는 스마</p>
+						</a>
+					</div>
+					<div class="img_area">
+						<a href="#">
+							<p class="f_img"><img src="http://imgnews.naver.net/image/003/2015/03/12/NISI20150312_0010710675_web_99_20150312120204.jpg?type=w540" width="100%" alt=""></p>
+						</a>
+					</div>
+					<div class="text_area">
+						<a href="#">
+							<p class="text_content">지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지... 지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지...</p>
+						</a>
+					</div>
+					<div class="link_btn">
+						<a href="#"><div class="share_btn"><span class="share_ico">공유</span></div></a>
+						<a href="#" class="article_text"><div class="article_btn">기사원문보기<span class="see_ico"></span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--//기사-->
+			<!--기사-->
+			<div class="news_content">
+				<div class="box">
+					<div class="title_area">
+						<a href="#">
+							<p class="text_title">절대 잃어버리지 않는 스마트 우산 등장 절대 잃어버리지 않는 스마트절대 잃어버리지 않는 스마트 우산 등장 절대 잃어버리지 않는 스마</p>
+						</a>
+					</div>
+					<div class="img_area">
+						<a href="#">
+							<p class="f_img"><img src="http://imgnews.naver.net/image/014/2015/03/12/201503121624311079_99_20150312165303.jpg?type=w540" width="100%" alt=""></p>
+						</a>
+					</div>
+					<div class="text_area">
+						<a href="#">
+							<p class="text_content">지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지... 지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지...</p>
+						</a>
+					</div>
+					<div class="link_btn">
+						<a href="#"><div class="share_btn"><span class="share_ico">공유</span></div></a>
+						<a href="#" class="article_text"><div class="article_btn">기사원문보기<span class="see_ico"></span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--//기사-->
+			<!--시간-->
+			<div class="time_wrap">
+				<div class="time_content">
+					<div class="time_text"><span class="time_ico"></span>어제</div>
+				</div>
+			</div>
+			<!--//시간-->
+			<!--기사-->
+			<div class="news_content">
+				<div class="box">
+					<div class="title_area">
+						<a href="#">
+							<p class="text_title">5년째 접어드는 시리아 내전…국민 고통 '현재진행형'</p>
+						</a>
+					</div>
+					<div class="img_area">
+						<a href="#">
+							<p class="f_img"><img src="http://imgnews.naver.net/image/001/2015/03/13/PEP20140924113001034_P2_99_20150313135410.jpg?type=w540" width="100%" alt=""></p>
+						</a>
+					</div>
+					<div class="text_area">
+						<a href="#">
+							<p class="text_content">지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지... 지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지...</p>
+						</a>
+					</div>
+					<div class="link_btn">
+						<a href="#"><div class="share_btn"><span class="share_ico">공유</span></div></a>
+						<a href="#" class="article_text"><div class="article_btn">기사원문보기<span class="see_ico"></span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--//기사-->
+			<!--기사-->
+			<div class="news_content">
+				<div class="box">
+					<div class="title_area">
+						<a href="#">
+							<p class="text_title">막내리는 중국 兩會 무얼 남겼나? 시진핑 ‘신창타이’… 개혁 주도권 굳혔다</p>
+						</a>
+					</div>
+					<div class="img_area">
+						<a href="#">
+							<p class="f_img"><img src="http://imgnews.naver.net/image/021/2015/03/13/2015031301031730126001_b_99_20150313140324.jpg?type=w540" width="100%" alt=""></p>
+						</a>
+					</div>
+					<div class="text_area">
+						<a href="#">
+							<p class="text_content">지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지... 지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지...</p>
+						</a>
+					</div>
+					<div class="link_btn">
+						<a href="#"><div class="share_btn"><span class="share_ico">공유</span></div></a>
+						<a href="#" class="article_text"><div class="article_btn">기사원문보기<span class="see_ico"></span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--//기사-->
+			<!--기사-->
+			<div class="news_content">
+				<div class="box">
+					<div class="title_area">
+						<a href="#">
+							<p class="text_title">2016년 美 대선 가장 주목받는 후보는 단연 클린턴</p>
+						</a>
+					</div>
+					<div class="img_area">
+						<a href="#">
+							<p class="f_img"><img src="http://imgnews.naver.net/image/016/2015/03/13/20150313000975_1_99_20150313152502.jpg?type=w540" width="100%" alt=""></p>
+						</a>
+					</div>
+					<div class="text_area">
+						<a href="#">
+							<p class="text_content">지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지... 지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지...</p>
+						</a>
+					</div>
+					<div class="link_btn">
+						<a href="#"><div class="share_btn"><span class="share_ico">공유</span></div></a>
+						<a href="#" class="article_text"><div class="article_btn">기사원문보기<span class="see_ico"></span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--//기사-->
+			<!--시간-->
+			<div class="time_wrap">
+				<div class="time_content">
+					<div class="time_text"><span class="time_ico"></span>03.02</div>
+				</div>
+			</div>
+			<!--//시간-->
+					<!--기사-->
+			<div class="news_content">
+				<div class="box">
+					<div class="title_area">
+						<a href="#">
+							<p class="text_title">"싸다구 좋아하기에는…" 독일 저가 마트의 불편한 진실</p>
+						</a>
+					</div>
+					<div class="img_area">
+						<a href="#">
+							<p class="f_img"><img src="http://imgnews.naver.net/image/421/2015/03/13/1268579_article_99_20150313113403.jpg?type=w540" width="100%" alt=""></p>
+						</a>
+					</div>
+					<div class="text_area">
+						<a href="#">
+							<p class="text_content">지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지... 지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지...</p>
+						</a>
+					</div>
+					<div class="link_btn">
+						<a href="#">
+							<div class="share_btn">
+								<span class="share_ico">공유</span>
+							</div>
+						</a>
+						<a href="#" class="article_text"><div class="article_btn">기사원문보기<span class="see_ico"></span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--//기사-->
+			<!--기사-->
+			<div class="news_content">
+				<div class="box">
+					<div class="title_area">
+						<a href="#">
+							<p class="text_title">절대 잃어버리지 않는 스마트 우산 등장 절대 잃어버리지 않는 스마트절대 잃어버리지 않는 스마트 우산 등장 절대 잃어버리지 않는 스마</p>
+						</a>
+					</div>
+					<div class="img_area">
+						<a href="#">
+							<p class="f_img"><img src="http://imgnews.naver.net/image/014/2015/03/12/201503121624311079_99_20150312165303.jpg?type=w540" width="100%" alt=""></p>
+						</a>
+					</div>
+					<div class="text_area">
+						<a href="#">
+							<p class="text_content">지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지... 지금까지 우산 한 번 잃어버리지 않은 사람은 드물 것이다. 적게는 서너 개부터 많게는 열 개가 넘기까지...</p>
+						</a>
+					</div>
+					<div class="link_btn">
+						<a href="#"><div class="share_btn"><span class="share_ico">공유</span></div></a>
+						<a href="#" class="article_text"><div class="article_btn">기사원문보기<span class="see_ico"></span></div></a>
+					</div>
+				</div>
+			</div>
+			<!--//기사-->
+			<div class="frame"></div>
+		</div>
+		<!--//컨텐츠-->
+	</article>
+</section>	
+<!--footer-->	
+<footer>
+	<div id="footer">
+		<ul>
+			<li class="PC"><a class="ico" href="#"><em>PC버전</em></a></li>
+			<li class="facebook"><a class="ico" href="#"><em>페이스북</em></a></li>
+			<li class="twiter"><a class="ico" href="#"><em>트위터</em></a></li>
+			<li class="APP"><a class="ico" href="#"><em>APP</em></a></li>
+		</ul>
+		<address>Copyright &copy;이투데이. All rights reserved</address>
+	</div>
+</footer>
+<!--//footer-->
+</body>
+</html>
