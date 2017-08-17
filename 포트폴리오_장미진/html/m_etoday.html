@@ -1,0 +1,841 @@
+<!doctype html> 
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, 
+user-scalable=no, target-densitydpi=medium-dpi" />
+<title>프리미엄 경제신문 이투데이</title>
+<link rel="stylesheet" type="text/css" href="../css/etoday.css">
+</head>
+<body>
+    <div class="reveal-wrap">
+    <div class="e_skip">
+        <a href="#content">본문 바로가기</a>
+    </div>
+    <!--헤더-->
+    <header>
+        <div id="header">
+            <!--로고및버튼-->
+            <div class="header_cont">
+                <h1 class="h_logo">
+                    <a href="#" class="ico logo">이투데이</a>
+                </h1>
+                <div class="h_btn_all">
+                    <a href="#" class="ico btn_all">전체보기</a>
+                </div>
+                <div class="h_search">
+                    <a href="#" class="ico search">검색</a>
+                </div>
+            </div>
+            <!--//로고및버튼-->
+            <!--검색창-->
+            <div id="section_search" class="header_s_w" style="display: none">
+                <h2 class="blind">검색</h2>
+                <div>
+                    <div class="search_wrap">
+                        <form name="formSearch" method="get">
+						  <fieldset class="search_wrap_c">
+							 <legend>검색</legend>
+							 <div class="gbox">
+								<input class="search_box" type="text" id="keyword_s" name="keyword" value="검색어 입력" title="검색">
+                                 <input type="image" class="ico s_search">
+							 </div>
+							 <input type="image" class="ico close">
+						  </fieldset>
+					   </form>
+				    </div>
+                </div>
+            </div>
+            <!--//검색창-->
+            <!--서비스전체보기-->
+            <div id="section_menuall" class="header_s_w" style="display: none">
+                <h2 class="blind">서비스전체보기</h2>
+                <div class="menuall_area">
+                    <div class="menuall_w">
+                        <div class="menuall_tit">서비스 전체보기</div>
+                        <ul class="menuall_lst">
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#">홈</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#">마켓</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">증권금융</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">기업</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">경제</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">부동산</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">국제</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#">일반</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">정치</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">사회</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">라이프</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">여성</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">오피니언</a>
+                                    </li>
+                                </ul>    
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#">연예</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#">기획이슈</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#">많이본</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#" class="">펀&스낵</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">뉴스팡팡</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">포토</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">영상</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">만화</a>
+                                    </li>
+                                </ul>    
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#">이투데이 페이스북</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="on">
+                                        <a href="#">뉴스팡팡 페이스북</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <input type="image" class="ico close">
+                </div>
+                
+            </div>
+            <!--//서비스전체보기-->
+            <!--메뉴-->
+            <div id="nav" class="h_gnb">
+                <h2 class="blind">이투데이 전체메뉴</h2>
+                <ul>
+                    <li class="on">
+                        <a href="#">홈</a>
+                    </li>
+                    <li>
+                        <a href="#">마켓</a>
+                    </li>
+                    <li>
+                        <a href="#">일반</a>
+                    </li>
+                    <li>
+                        <a href="#">연예</a>
+                    </li>
+                    <li>
+                        <a href="#">기획</a>
+                    </li>
+                    <li>
+                        <a href="#">랭킹</a>
+                    </li>
+                    <li>
+                        <a href="#">fun&</a>
+                    </li>
+                </ul>
+            </div>
+            <!--//메뉴-->
+        </div>
+    </header>
+    <!--//헤더-->
+    <!--컨텐츠-->
+    <div id="content" class="reveal-contents" style="position: relative">
+<div id="main_wrap_L">
+        <!--특집-->
+        <div class="planning box" style="display: block;margin-top: 0">
+            <div class="planning_c">
+                <a href="#">
+                    <span class="planning_img">
+                        <img src="http://img.etoday.co.kr/pto_db/2016/10/20161031082521_964507_550_944.jpg" width="100%" alt="">
+                    </span>
+                    <div class="nf_ico_w">
+                        <h3 class="blind">특집</h3>
+                        <div class=" nf_ico" style="width: 42px;background: rgb(255, 31, 31);">특집</div>
+                    </div>
+                    <span class="planning_tit" style="margin-top: 10px">
+                        <span class="link_text2">
+                            최순실 게이트
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <div class="special-tit-wrap">
+                <div class="special-tit">
+                    <a href="#" class="link_text2">
+                        검찰, 최순실에 직권남용, 사기미수 혐의 적용… 내일 영장 심사
+                    </a>
+                </div>
+                <div class="top_related_articles">
+                    <ul>
+                        <li>
+                            <a href="#" class="ico line_text1">
+                                제네시스 독립 1년, 안방선 ‘쌩쌩’ 해외선 ‘주춤’
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ico line_text1">
+                                11·12월 연말 비수기인데도…밀어내기 공급에 ‘미분양’ 경고음
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ico line_text1">
+                                “산은 혁신안 ‘공염불’…실효성 의심”
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ico line_text1">
+                                제네시스 독립 1년, 안방선 ‘쌩쌩’ 해외선 ‘주춤’
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ico line_text1">
+                                11·12월 연말 비수기인데도…밀어내기 공급에 ‘미분양’ 경고음
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--//특집-->
+        <!--탑기사-->
+        <div class="top-article-entire">
+            <ul>
+                <li>
+                    <div class="top_article">
+                        <div class="top_article_w">
+                            <h2 class="blind">헤드라인</h2>
+                            <a href="#">
+                                <img src="../images/201605/2.jpg" width="100%" height="" alt="">
+                                <div class="top_article_tit link_text2">
+                                    서울 강남 4구·과천, 입주까지 분양권 전매 금지
+                                </div>
+                                <span class="mask"></span>
+                            </a>
+
+                        </div>
+                        <div class="top_related_lead">
+                            <a href="#">
+                                최근 과열 양상을 보이던 서울, 경기, 세종, 부산 등이 ‘청약 조정대상지역’으로 지정되고 이로 인한 규제가 대폭 늘어나게 된다. 
+                                조정지역에서는 세대주가 아니거나 2주택 이상 보유자는 1순위 자격이 제한되고 일정 기간 재당첨도 금지된다.
+                                국토교통부는 3일 정부서울청사에서 열린 경제관계장관회의를 거쳐 ‘실수요 중심의 시장형성을 통한 주택시장의 
+                                안정적 관리방안’을 확정, 발표했다.
+                            </a>
+                        </div>
+                        <div class="top_related_articles" style="display:block">
+                            <ul>
+                                <li>
+                                    <a href="#" class="ico line_text1">
+                                        안종범 사퇴…금융권 인사 소용돌이 예고
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ico line_text1">
+                                        더민주 “정부 임대주택 적자는 거짓… 실제 엄청난 이익”
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ico line_text1">
+                                        건설경기 전망지수, 23개월 만에 소폭 상승
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ico line_text1">
+                                        조선 “맹탕 정책”… 해운 “신뢰회복 관건”
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!--//탑기사-->
+            <!--도트버튼-->
+            <div class="dot-wrap">
+                <ul>
+                    <li class="on">
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <!--//도트버튼-->
+        </div>    
+        <!--기사4개-->
+        <div class="article-four box">
+            <div class="article-four-cont">
+                <ul>
+                    <li>
+                         <a href="#">
+                             <span class="sec_article_img">
+                                 <img src="http://img.etoday.co.kr/web/sitem/MTOP_2_0.jpg?1479792654" width="100%" alt=""/>
+                            </span>
+                                 
+                             <div class="txt">
+                                <span class="link_text2">수사기관 ‘통신 조회’ 전년比 감소… 감청 99% 여전히 국정원</span>
+                             </div>
+                        </a>
+                    </li>
+                    <li>
+                         <a href="#" class="link_text2">
+                             <span class="sec_article_img">
+                                <img src="http://img.etoday.co.kr/web/sitem/MTOP_2_1.jpg?1479792654" width="100%" alt=""/>
+                            </span>     
+                             <div class="txt">
+                                <span class="link_text2">현대기아차, 커넥티드 카 차량용 OS 개발 착수</span>
+                             </div>
+                        </a>
+                    </li>
+                    <li>
+                         <a href="#" class="link_text2">
+                             <span class="sec_article_img">
+                                <img src="http://img.etoday.co.kr/web/sitem/MTOP_2_2.jpg?1479792654" width="100%"  alt=""/>
+                            </span>     
+                             <div class="txt">
+                                <span class="link_text2">에어부산, 12월 부산ㆍ대구-싼야 등 4개 노선 신규취항</span>
+                             </div>
+                        </a>
+                    </li>
+                    <li>
+                         <a href="#">
+                             <span class="sec_article_img">
+                                <img src="http://img.etoday.co.kr/web/sitem/MTOP_2_3.jpg?1479792654" width="100%" alt=""/>
+                            </span>     
+                             <div class="txt">
+                                <span class="link_text2">CJ헬스케어, 맑은 공기 만들기 봉사활동</span>
+                             </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--//기사4개-->
+        <!--오늘의 마켓-->
+        <div class="today_market box">
+            <div class="today_market_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>오늘의 마켓</h3>
+                        <span class="ico sec_add_ico">더보기</span>
+                    </a>
+                </div>
+                <div class="section_txt_c">
+                    <div class="market_txt_w">
+                        <dl class="mrket_txt down"><!--up/down 클래스로 컬러값 설정-->
+                            <dt>코스닥</dt>
+                            <dd class="num_txt">1,980.49</dd>
+                            <dd class="arrow">
+                                <div>
+                                    <strong class="ico arrow_ico">14.42</strong>
+                                </div>    
+                            </dd>
+                            <dd>-12.36%</dd>
+                        </dl>
+                    </div>
+                    <div class="market_txt_w">
+                        <dl class="mrket_txt up"><!--up/down 클래스로 컬러값 설정-->
+                            <dt>코스피</dt>
+                            <dd class="num_txt">1,760.27</dd>
+                            <dd class="arrow">
+                                <div>
+                                    <strong class="ico arrow_ico">14.42</strong>
+                                </div>    
+                            </dd>
+                            <dd class="num_txt2">+12.36%</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//오늘의 마켓-->
+        <!--10단기사-->
+        <div class="sec_article box">
+            <div class="top_related_articles">
+                <ul class="r_a_line">
+                    <li>
+                        <a href="#" class="line_text1">
+                            삼성전자 ‘기어S3’ 다음달 4일부터 사전예약 돌입 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            SPC그룹 차남 허희수 부사장 승진… 형제경영 본격화
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            “저금리 민간투자·소비회복 기여 못 해… 기업 저축만 늘어”
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            국내 주식형펀드, 1거래일 만에 순유출
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                           검찰, 최순실·안종범 '강제모금' 수사…SK그룹 임원 조사 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            북미 상륙한 LG전자 ‘V20’… ‘중국은 왜?’
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            포스코 계열사 매각 과정에도 차은택 개입 의혹… 검찰, 관련 업체 대표 조사
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            공정위, 계열사 허위보고 ‘현정은 현대그룹 회장’ 검찰 고발
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            산은 "출자회사 시장가 매각 정관에 규정화"…혁신안 발표 일문일답
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="line_text1">
+                            안종범 사퇴…금융권 인사 소용돌이 예고
+                        </a>
+                    </li>
+                </ul>
+                <!--기사더보기-->
+                <div class="article-add-wrap">
+                    <a href="#">주요기사 더보기</a>
+                </div>
+                <!--//기사더보기-->
+            </div>
+        </div>
+        <!--//10단기사-->
+        <!--마켓/일반/연예/기획-->
+        <div class="tit-lst-wrap">
+            <ul>
+                <li>
+                    <a href="#">마켓</a>
+                </li>
+                <li>
+                    <a href="#">일반</a>
+                </li>
+                <li>
+                    <a href="#">연예</a>
+                </li>
+                <li>
+                    <a href="#">기획</a>
+                </li>
+            </ul>
+        </div>
+        <!--//마켓/일반/연예/기획-->
+</div>
+<div id="main_wrap_R">        
+        <!--기획-->
+        <div class="planning box">
+            <div class="planning_c">
+                <a href="#">
+                    <span class="planning_img">
+                        <img src="http://post.phinf.naver.net/20160516_113/1463407909771gHGiQ_JPEG/09.jpg?type=w1200" width="100%" alt="">
+                    </span>
+                    <div class="nf_ico_w">
+                        <h3 class="blind">기획</h3>
+                        <div class=" nf_ico">기획</div>
+                    </div>
+                    <span class="planning_tit">
+                        <span class="link_text2">與 내홍 폭발…친박 "비대위 편파" vs 비박 "양아치 정당"與 내홍 폭발…친박 "비대위 편파" vs 비박 "양아치 정당"</span>
+                    </span>
+                </a>
+            </div>
+            <div>
+                <div class="top_related_articles">
+                <ul>
+                    <li>
+                        <a href="#" class="ico line_text1">
+                            제네시스 독립 1년, 안방선 ‘쌩쌩’ 해외선 ‘주춤’
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="ico line_text1">
+                            11·12월 연말 비수기인데도…밀어내기 공급에 ‘미분양’ 경고음
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="ico line_text1">
+                            “산은 혁신안 ‘공염불’…실효성 의심”
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <!--//기획-->
+        <!--카드뉴스-->
+        <div class="card_news box">
+            <div class="card_news_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>카드뉴스</h3>
+                        <span class="ico sec_add_ico">더보기</span>
+                    </a>
+                </div>
+                <div class="section_txt_c">
+                    <div class="section_txt_inner">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="imgH2">
+                                        <img src="http://img.etoday.co.kr/html/lib_img_crop.php?id=975477&mw=234&mh=234" width="100%" class="lazy" alt="">
+                                    </span>
+                                    <span class="sec_article_tit ">
+                                        <span class="link_text2">
+                                            박 대통령, ‘후속 인적쇄신’ 어디까지… 총리 교체·내각 개편 가능성 
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="imgH2">
+                                        <img src="http://img.etoday.co.kr/html/lib_img_crop.php?id=975494&mw=234&mh=234" width="100%" class="lazy" contenteditable=""alt="">
+                                    </span>
+                                    <span class="sec_article_tit ">
+                                        <span class="link_text2">
+                                            권오현 삼성전자 부회장 “철저한 위기 관리 체계 갖추자”… 창립 47주년 기념식 진행
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//카드뉴스-->
+        <!--오피니언-->
+        <div class="opinion-wrap box">
+            <div class="opinion-cont-wrap">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>오피니언</h3>
+                        <span class="ico sec_add_ico">더보기</span>
+                    </a>
+                </div>
+                <div class="opinion-cont sec_article">
+                    <div class="top_related_articles">
+                        <ul class="r_a_line">
+                            <li style="border-top: none">
+                                <a href="#" class="line_text1">
+                                    <span style="padding-right: 5px;color:rgba(255,31,100,1);font-size: 14px">[기자수첩]</span>삼성전자 ‘기어S3’ 다음달 4일부터 사전예약 돌입 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="line_text1">
+                                    <span style="padding-right: 5px;color:rgba(255,31,100,1);font-size: 14px">[객석]</span>SPC그룹 차남 허희수 부사장 승진… 형제경영 본격화
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="line_text1">
+                                    <span style="padding-right: 5px;color:rgba(255,31,100,1);font-size: 14px">[공병호의 독서산책]</span>“저금리 민간투자·소비회복 기여 못 해… 기업 저축만 늘어”
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="line_text1">
+                                    <span style="padding-right: 5px;color:rgba(255,31,100,1);font-size: 14px">[이민화 칼럼]</span>국내 주식형펀드, 1거래일 만에 순유출
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//오피니언-->
+        <!--연예스포츠-->
+        <div class="ent_spot box">
+            <div class="ent_spo_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>연예스포츠</h3>
+                        <span class="ico sec_add_ico">더보기</span>
+                    </a>
+                </div>
+                <div style="overflow: hidden; z-index: 2000;">
+                    <div class="section_txt_c">
+                        <div class="section_txt_inner">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span class="imgH2">
+                                            <img src="http://imgnews.naver.net/image/022/2016/05/17/20160517003040_0_99_20160517213305.jpg?type=w430" width="100%" alt="">
+                                            <span class="mask"></span>
+                                        </span>
+                                        <span class="sec_article_tit">
+                                            <span class="link_text2">
+                                                소니코리아, 1000만원대 헤드파이 ‘시그니처’시리즈 공개 
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="imgH2">
+                                            <img src="http://imgnews.naver.net/image/055/2016/05/17/200943108_99_20160517145803.jpg?type=w540" width="100%" alt="">
+                                            <span class="mask"></span>
+                                        </span>
+                                        <span class="sec_article_tit">
+                                            <span class="link_text2">
+                                                우상호 “최순실 사태 핵심 증인은 박 대통령, 조사 받아야”
+                                            </span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+                <!--슬라이드 아이콘-->
+                <div class="pageNav">
+					<span class="pagenum">
+						<span class="on">1</span>
+						<span class="num">2</span>
+						<span class="num">3</span>
+					</span>
+			     </div>
+                <!--//슬라이드 아이콘-->
+            </div>
+        </div>
+        <!--//연예스포츠-->
+        <!--비즈엔터-->
+        <div class="biz_ent box">
+            <div class="biz_ent_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3 class="ico ent_logo">비즈엔터</h3>
+                        <span class="ico sec_add_ico">더보기</span>
+                    </a>
+                </div>
+                <div class="section_txt_c">
+                   <div class="sec_article2_w">
+                        <a href="#" class="thumb">
+                            <img src="http://post.phinf.naver.net/20160516_52/1463407909579qgInU_JPEG/-.jpg?type=w1200" width="100%" height="" alt="">  
+                        </a>
+                        <a href="#">
+                            <div class="sec_article2_txt">
+                                <div class="article2_tit link_text2">아이오닉, 그랜저 하이브리드 보다 안 팔리는 이유</div>
+                                <div class="article2_txt link_text2">
+                                    [오토트리뷴=양봉수 기자] 현대차가 처음 출시한 친환경 전용차 아이오닉이 
+                                    지난 4월 755대로, 현대차의 하이브리드카 중 가장 낮은 판매량을 기록했다.
+                                </div>
+                            </div>
+                        </a>    
+                    </div>
+                </div>
+                <div class="top_related_articles">
+                    <ul class="r_a_line">
+                        <li>
+                            <a href="#" class="line_text1">
+                                11·12월 연말 비수기인데도…밀어내기 공급에 ‘미분양’ 경고음
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="line_text1">
+                               이용호 “최순실이 조윤선 장관 추천”, 조윤선 ”본적도 없어“
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="line_text1">
+                                한국자산신탁, 제주 해안동에 타운하우스 ‘PASSY(파씨) 33’ 분양
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <!--//비즈엔터-->
+        <!--많이본기사-->
+        <div class="enjoy_article box">
+            <div class="ent_spo_c">
+                <div class="section_tit_w">
+                    <a href="#">
+                        <h3>많이 본 기사</h3>
+                        <span class="ico sec_add_ico">더보기</span>
+                    </a>
+                </div>
+                <div class="section_txt_c">
+                    <div class="section_txt_inner">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="enjoy_img_w imgH2">
+                                        <img src="http://img.etoday.co.kr/html/lib_img_crop.php?id=975627&mw=300&mh=300" width="100%" alt="">
+                                        <span class="enjoy_num">1</span>
+                                    </span>
+                                    <span class="sec_article_tit">
+                                        <span class="link_text2">
+                                           디아지오, 17년산 원액의 35도 위스키 출시
+                                        </span>
+                                    </span>
+                                    
+                                </a>
+                            </li>
+                            <li style="display:block">
+                                <a href="#">
+                                    <span class="enjoy_img_w imgH2">
+                                        <img src="http://img.etoday.co.kr/html/lib_img_crop.php?id=913340&mw=300&mh=300" width="100%" alt="">
+                                        <span class="enjoy_num">1</span>
+                                    </span>
+                                    <span class="sec_article_tit">
+                                        <span class="link_text2">
+                                            신설법인 올 3분기 2만3406개…올해 사상 최대될 듯
+                                        </span>
+                                    </span>
+                                    
+                                </a>
+                            </li>
+                            <li style="display:none">
+                                <a href="#" class="enjoy_nimg_w"><!--이미지없을시-->
+                                    <span class="enjoy_nimg_c imgH2">
+                                        <img src="../images/201605/bg.jpg" width="100%" alt="">
+
+                                        <span class="enjoy_num">2</span>
+                                    </span>
+                                    <span class="sec_article_tit">
+                                        <span class="link_text3">
+                                            세계는 "더티 디젤" 경고, 한국은 "클린 디젤" 역주행한국은 "클린 디젤" 역주행한국은 "클린 디젤" 역주행
+                                        </span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="top_related_articles">
+                    <ul class="r_a_line">
+                        <li>
+                            <a href="#" class="line_text1">
+                                <span class="num">3</span>한국경제 곳곳서 ‘경고음’…생산ㆍ투자ㆍ소비 모두 부진
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="line_text1">
+                                <span class="num">4</span>네이버 스노우 귀하신 몸…저커버그 러브콜 퇴짜놓은 이해진
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="line_text1">
+                                <span class="num">5</span>신세계그룹, 프리미엄 슈퍼사업 이마트 양도 왜?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="line_text1">
+                                <span class="num">6</span>'비선실세' 최순실 서울구치소로 이감…검찰, 이르면 오늘 구속영장 청구
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="line_text1">
+                                <span class="num">7</span>시총상위 100개사 평균연봉 7347만원…4년새 20% 늘어
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+        </div>
+        <!--//많이본기사-->
+        </div>
+    </div>
+    <!--//컨텐츠-->
+    <div class="clear"></div>
+    <!--푸터-->
+    <footer id="footer">
+        <div class="footer_c box">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="ico pc"></span>
+                        <span class="pc_tit">PC버전</span>
+                    </a>    
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="ico login"></span>
+                        <span class="ico logout"></span>
+                        <span class="login_tit">로그인</span>
+                    </a>
+                </li>
+            </ul>
+            <address>Copyright (c) 이투데이. All rights reserved</address>
+        </div>
+    </footer>
+    <!--//푸터-->
+    </div>    
+</body>
+</html>
